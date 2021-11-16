@@ -1,0 +1,132 @@
+body{
+    line-height: 1.6;
+    font-family: -apple-system-font,Helvetica Neue,sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.weui-cells__title {
+    margin-top: 16px;
+    margin-bottom: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgba(0,0,0,.5);
+    font-size: 14px;
+    line-height: 1.4;
+}
+.weui-cell__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.weui-cell {
+    padding: 16px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.weui-cell:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    color: rgba(0,0,0,.1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    left: 16px;
+    z-index: 2;
+}
+.weui-cells {
+    margin-top: 8px;
+    background-color: #fff;
+    line-height: 1.41176471;
+    font-size: 17px;
+    overflow: hidden;
+    position: relative;
+}
+.weui-footer {
+    color: rgba(0,0,0,.3);
+    line-height: 1.4;
+}
+.weui-footer, .weui-grid__label {
+    text-align: center;
+    font-size: 14px;
+}
+user agent stylesheet
+ p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.weui-footer {
+    color: rgba(0,0,0,.3);
+    line-height: 1.4;
+}
+.weui-footer, .weui-grid__label {
+    text-align: center;
+    font-size: 14px;
+}
+element.style {
+    opacity: 0;
+}
+input, textarea {
+    caret-color: #07c160;
+}
+user agent stylesheet
+input[type="color" i] {
+    appearance: auto;
+    width: 44px;
+    height: 23px;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    cursor: default;
+    color: -internal-light-dark(black, white);
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 1px 2px;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.weui-footer {
+    color: rgba(0,0,0,.3);
+    line-height: 1.4;
+}
+.weui-footer, .weui-grid__label {
+    text-align: center;
+    font-size: 14px;
+}
